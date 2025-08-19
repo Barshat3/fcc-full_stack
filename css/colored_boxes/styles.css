@@ -1,0 +1,36 @@
+body{
+    background-color:#f4f4f4;
+  }
+  
+  .color-grid{
+    padding:10px;
+    margin: 0 auto;
+  }
+  .color-box{
+    width:100px;
+    height:100px;
+    display:inline-block;
+    margin: 0 20px 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .color1{
+    background-color:#000000;
+  }
+  
+  .color2{
+    background-color:rgb(200, 100, 50);
+  
+  }
+  
+  .color3{
+    background-color: blue;
+  }
+  
+  .color4{
+    background-color: hsl(60deg, 100%, 50%)
+  }
+  
+  .color5 {
+    background-color: orange;
+  }
