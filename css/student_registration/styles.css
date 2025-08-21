@@ -1,0 +1,47 @@
+/* Container styling */
+.form-container {
+    background-color: #f0f4f8;   /* light gray-blue background */
+    border-radius: 10px;        /* rounded corners */
+    padding: 20px;              /* inner spacing */
+    width: 350px;               /* fixed width */
+    margin: 40px auto;          /* center on page */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  /* Label styling */
+  label {
+    display: block;             /* each label on its own line */
+    margin: 10px 0 5px;         /* space above/below */
+    color: #333;                /* dark font color */
+    font-weight: 500;
+  }
+  
+  /* Input + Textarea styling */
+  input,
+  textarea {
+    width: 100%;                /* take full width */
+    padding: 10px;              /* inner padding */
+    margin-bottom: 15px;        /* space below */
+    border: 1px solid #ccc;     /* light border */
+    border-radius: 5px;         /* soft corners */
+    font-size: 14px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff;  /* blue background */
+    color: white;               /* white text */
+    padding: 10px 15px;
+    font-size: 16px;            /* larger than default */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;                /* stretch across */
+    transition: background-color 0.3s ease; /* smooth hover */
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #0056b3;  /* darker blue */
+  }
+  
