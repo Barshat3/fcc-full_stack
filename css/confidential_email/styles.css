@@ -1,0 +1,46 @@
+body {
+    background: #f9fafb;
+  }
+  
+  #email {
+    position: relative;
+    padding: 50px;
+    width: 600px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 50px auto;
+    background-color: #fffef6;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    line-height: 1.6;
+    font-size: 1.05em;
+  }
+  
+  #confidential,
+  #top-secret {
+    position: absolute;
+    opacity: 0.15;
+    font-size: 4em;
+    font-weight: bold;
+    color: red;
+    transform: rotate(-30deg);
+    pointer-events: none;
+  }
+  
+  #confidential {
+    top: 15%;
+    left: 10%;
+  }
+  
+  #top-secret {
+    bottom: 15%;
+    right: 10%;
+  }
+  
+  .blurred {
+    filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 2px 4px;
+  }
+  
