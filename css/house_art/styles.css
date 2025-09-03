@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #87CEEB; /* sky */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+  }
+  
+  .sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: #add8e6;
+    z-index: -2;
+  }
+  
+  .ground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: green;
+    z-index: -2;
+  }
+  
+  .house {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background: #f58d7c;
+    border: 5px solid #a0522d;
+  }
+  
+  .roof {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: repeating-linear-gradient(
+      45deg,
+      sienna,
+      sienna 10px,
+      transparent 10px,
+      transparent 20px
+    );
+    border-bottom: 5px solid #a0522d;
+  }
+  
+  .window {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #ffffcc;
+    border: 5px solid sienna;
+  }
+  
+  .window.left {
+    left: 40px;
+    top: 100px;
+  }
+  
+  .window.right {
+    right: 40px;
+    top: 100px;
+  }
+  
+  .door {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 150px;
+    background: #ddd;
+    border: 5px solid sienna;
+  }
+  
+  .knob {
+    position: absolute;
+    right: 20px;
+    top: 60%;
+    width: 15px;
+    height: 15px;
+    background: sienna;
+    border-radius: 50%;
+  }
+  
+  .mat {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%) skewX(-20deg);
+    background: #cce6cc;
+    padding: 5px 20px;
+    border: 2px solid black;
+    font-style: italic;
+  }
+  
